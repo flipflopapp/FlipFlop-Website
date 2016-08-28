@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    background: #e6f0f8;
+    background: whitesmoke;
 }
 
 p {
@@ -17,7 +17,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #002d56;
+    color: lightgray;
 }
 
 h1,
@@ -29,7 +29,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #002d56;
+    color: lightgray;
 }
 h3{
 	color: #fff;
@@ -39,31 +39,31 @@ h3{
 	color: #fff;
 }
 .navbar-default .navbar-toggle {
-	background: #002d56;
+	background: lightgray;
 	border: solid 1px #fff;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background: lightgreen;
-	border: solid 1px #002d56;
+	background: lightgray;
+	border: solid 1px lightgray;
 }
 
 .scroll-top .btn{
-	background: #002d56;
+	background: lightgray;
 	border: solid 1px #fff;
 }
 
 .btn-success:hover, .btn-success:focus {
-	background: #002d56;
+	background: lightgray;
 	border: solid 1px #fff;
 }
 .btn-lg, .btn-group-lg>.btn {
-	background: lightgreen;
-		border: solid 1px lightgreen;
+	background: lightgray;
+		border: solid 1px lightgray;
 	
 }
 hr.star-light,
 hr.star-primary {
-    margin: 25px auto 30px;
+    margin: 40px auto 40px;
     padding: 0;
     max-width: 250px;
     border: 0;
@@ -88,11 +88,16 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: lightgreen;
+    background-color: lightgray;
 }
+
+.empty:after {
+    content: "";
+}
+
 #about hr.star-light:after {
     color: #fff;
-    background-color: #002d56;
+    background-color: lightgray;
 }
 
 #about img {
@@ -100,12 +105,12 @@ hr.star-light:after {
 	border: solid #eee 5px;
 }
 hr.star-primary {
-    border-color: #002d56;
+    border-color: lightgray;
 }
 
 hr.star-primary:after {
-    color: #002d56;
-    background-color: #e6f0f8;
+    color: lightgray;
+    background-color: whitesmoke;
 }
 
 .img-centered {
@@ -115,7 +120,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: lightgreen;
+    background: lightgray;
 }
 
 header .container {
@@ -183,11 +188,9 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    background: #002d56;
-    border-bottom: solid lightgreen 5px;
+    background: lightgray;
 }
 .navbar-fixed-top.navbar-shrink{
-	border-bottom: solid lightgreen 2px;
 }
 .navbar a:focus {
     outline: 0;
@@ -238,7 +241,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #002d56;
+    background: lightgray;
 
 }
 
@@ -269,14 +272,14 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(0, 45, 86,.9);
+    background: darkgray;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
@@ -323,7 +326,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #002d56;
+    color: lightgray;
     background: #fff;
 }
 
@@ -376,7 +379,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: lightgreen;
+    color: lightgray;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -392,8 +395,8 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
-    background-color: lightgreen;
+    padding-top: 10px;
+    background-color: lightgray;
 }
 
 footer .footer-col {
@@ -401,8 +404,8 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    padding: 25px 0;
-    background-color: #002d56;
+    padding: 10px 0;
+    background-color: lightgray;
     border-top: solid #eee 2px;
     
 }
@@ -454,7 +457,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #e6f0f8;
+    background: whitesmoke;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -473,7 +476,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .btn {
-	background: #002d56;
+	background: lightgray;
 	border: solid #fff 1px;
 }
 
@@ -500,7 +503,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #002d56;
+    background-color: lightgray;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -510,7 +513,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #002d56;
+    background-color: lightgray;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
